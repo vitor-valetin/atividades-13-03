@@ -20,6 +20,9 @@ class Animal
             case "Gato":
                 console.log("MIAU");
                 break;
+            case "Elefante":
+                console.log("FUUMMMM UHHH");
+                break;
             default:
                 console.log("Som não identificado!");
         }
@@ -34,6 +37,9 @@ cachorro.fazerSom();
 
 let gato = new Animal("Lilith", "Gato", 3);
 gato.fazerSom();
+
+let elefante = new Animal("Dumbo", "Elefante", 76);
+elefante.fazerSom();
 
 let ornintorrinco = new Animal("Perry", "Ornintorrinco", 5);
 ornintorrinco.fazerSom();
